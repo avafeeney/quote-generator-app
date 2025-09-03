@@ -1,0 +1,71 @@
+.color-picker {
+    text-align: center;
+}
+
+.color-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 200px;
+    padding-top: 50px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gradient(to right, #ffecd2, #fcb69f);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+img {
+    width: 500px;
+  }
+
+.quote-container {
+    margin: 20px 0;
+    font-size: 35px;
+    font-weight: bold; 
+    backdrop-filter: blur(10px);
+    padding: 5px;
+    color: gray;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.quote-full-text {
+    color: lightgray;
+}
+.quote-side-by-side {
+    display: flex; /* Makes the container a flex container */
+    justify-content: center; /* Distributes space between and around items */
+    align-items: center; /* Aligns items to the start of the cross-axis */
+    gap: 10px;
+}
+
+.quote-text {
+    font-size: 35px;
+  color: gray;
+  font-style: italic;
+  line-height: 1; /* helps keep them tight */
+}
+
+.sayer-container { 
+    font-size: 20px;
+    font-style: italic;
+    color: darkgray;
+
+}
